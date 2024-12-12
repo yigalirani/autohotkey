@@ -1,5 +1,7 @@
 #Requires AutoHotkey v2.0
-
+;Page navigation
+!o::Send "{PgUp}"   ; Alt + O for Page Up
+!l::Send "{PgDn}"   ; Alt + L for Page Down
 ;arrow movements
 !k::Send "{End}"
 !h::Send "{Home}"
